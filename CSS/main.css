@@ -1,0 +1,1203 @@
+/* Start variables */
+:root {
+    --main-color: #10cab7;
+    --main-back-ground: #0c0c0c;
+    --p-color: #888;
+}
+
+/* End variables */
+
+/* Start global rules */
+* {
+    -moz-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Work Sans", "sans-serif", Arial;
+}
+
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* End global rules */
+
+/* Start advertisement */
+.ad {
+    background: #262626;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ad p {
+    color: white;
+    margin-left: 20px;
+}
+
+.ad p span {
+    color: #82b441;
+}
+
+.ad button {
+    height: fit-content;
+    margin-right: 15px;
+    padding: 5px 15px;
+    color: white;
+    background-color: #82b441;
+    border-radius: 4px;
+    border: none;
+}
+
+/* End advertisement */
+
+/* Start header */
+.header {
+    background-color: #151515;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header .container .title {
+    margin: 25px 0;
+}
+
+.header .container .title h1 {
+    color: var(--main-color);
+    margin: 0;
+    font-size: 50px;
+}
+
+.header .container .title p {
+    color: white;
+    text-transform: uppercase;
+    margin-top: -5px;
+    letter-spacing: 5px;
+    font-size: 5px;
+    margin-left: 35px;
+}
+
+
+.header .container ul {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+
+.header .container li a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+.header .container ul i {
+    color: var(--main-color);
+}
+
+/* End header */
+
+/* Start intro */
+.intro {
+    background-image: linear-gradient(to right, rgba(11, 11, 11, 0.8) 40%, rgb(16 202 183 / 0.8)), url(../img/portrait.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.intro .container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1360px;
+    padding-bottom: 130px;
+}
+
+.intro .container .title {
+    width: 1015px;
+    position: relative;
+    padding-top: 80px;
+}
+
+.intro .container .title h3 {
+    color: var(--main-color);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.intro .container .title p {
+    color: white;
+    font-size: 110px;
+    margin-top: -5px;
+    margin-bottom: 0;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.intro .container .title p span {
+    color: var(--main-color);
+}
+
+.intro .container .title hr {
+    position: absolute;
+    width: 150px;
+    display: inline-block;
+    border-color: var(--main-color);
+    margin: 5px 0;
+}
+
+.intro .container .information p {
+    width: 501px;
+    color: #888;
+    line-height: 2;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+.intro .container .information .play {
+    position: relative;
+    display: flex;
+}
+
+.intro .container .information .play button {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: none;
+    background-color: var(--main-color);
+    border: 3px #3b8272 solid;
+    outline: 3px #22413b solid;
+}
+
+.intro .container .information .play .end {
+    position: absolute;
+    top: 0;
+    left: 100px;
+}
+
+.intro .container .information .play .end p:first-child {
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+.intro .container .information .play .end .flex {
+    position: relative;
+}
+
+.intro .container .information .play .end hr {
+    position: absolute;
+    top: -15px;
+    left: 0;
+    width: 80px;
+    border-color: #222;
+    margin: -25px 0;
+}
+
+.intro .container .information .play .end p:last-child {
+    color: var(--main-color);
+    font-size: 14px;
+    margin-bottom: 0;
+    line-height: 0;
+}
+
+/* End intro */
+
+/* Start services */
+.services {
+    background-color: black;
+}
+
+.services .container {
+    display: flex;
+    justify-content: space-around;
+    height: 600px;
+}
+
+.services .container .information {
+    width: 600px;
+    padding-top: 80px;
+}
+
+.services .container .information h3 {
+    color: var(--main-color);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.services .container .information p:first-of-type {
+    color: white;
+    font-size: 80px;
+    margin-top: -5px;
+    margin-bottom: 0;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.services .container .information p span {
+    color: var(--main-color);
+}
+
+.services .container .information hr {
+    position: absolute;
+    width: 150px;
+    display: inline-block;
+    border-color: var(--main-color);
+    margin: 5px 0;
+}
+
+.services .container .information p:nth-of-type(2),
+.services .container .information p:last-of-type {
+    color: var(--p-color);
+    line-height: 1.6;
+}
+
+.services .container .information button {
+    background-color: var(--main-color);
+    color: white;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding: 15px;
+    border: none;
+}
+
+.services .container .content {
+    padding-top: 80px;
+    position: relative;
+}
+
+.services .container .content div {
+    position: relative;
+}
+
+.services .container .content div .image {
+    text-align: center;
+}
+
+.services .container .content div .image img {
+    width: 80px;
+}
+
+.services .container .content div h3 {
+    color: white;
+    margin: 10px 0;
+    text-align: center;
+    font-size: 20px;
+}
+
+.services .container .content div p {
+    color: var(--p-color);
+    text-align: center;
+    width: 300px;
+    line-height: 1.8;
+    padding: 0 20px 20px;
+}
+
+.services .container .content div.one,
+.services .container .content div.four {
+    background-color: var(--main-back-ground);
+}
+
+.services .container .content div.two,
+.services .container .content div.three {
+    background-image: linear-gradient(to bottom, black, #15302a);
+}
+
+.services .container .content div.one {
+    left: -450px;
+}
+
+.services .container .content div.two {
+    left: -120px;
+    top: -200px;
+}
+
+.services .container .content div.three {
+    left: -450px;
+    top: -220px;
+}
+
+.services .container .content div.four {
+    left: -120px;
+    top: -420px;
+}
+
+/* End services */
+
+/* Start about us */
+.about {
+    background-color: var(--main-back-ground);
+}
+
+.about .container {
+    padding-top: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.about .container .photo img {
+    height: 100%;
+}
+
+.about .container .subject h3 {
+    color: var(--main-color);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.about .container .subject p.title {
+    color: white;
+    font-size: 60px;
+    width: 950px;
+    margin-top: -5px;
+    margin-bottom: 0;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.about .container .subject p.title span {
+    color: var(--main-color);
+}
+
+.about .container .subject hr {
+    position: absolute;
+    width: 150px;
+    display: inline-block;
+    border-color: var(--main-color);
+    margin: 5px 0;
+}
+
+.about .container .subject p:nth-child(4) {
+    width: 820px;
+    color: var(--p-color);
+    line-height: 2;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+.about .container .subject .thing {
+    display: flex;
+}
+
+.about .container .subject .thing .one,
+.about .container .subject .thing .two {
+    display: flex;
+}
+
+.about .container .subject .thing .image img {
+    width: 80px;
+}
+
+.about .container .subject .thing .info h3 {
+    color: white;
+    margin: 10px 0;
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+.about .container .subject .thing .info p {
+    color: var(--p-color);
+    width: 300px;
+    line-height: 1.8;
+    padding: 0 20px 20px;
+}
+
+/* End about us */
+
+/* Start statistics */
+.statistics {
+    background-image: linear-gradient(to left, rgb(16 12 20 / 0.6), rgb(16 202 183 / 0.7)), url(../img/1.jpg);
+    background-position: right;
+    filter: brightness(0.6);
+}
+
+.statistics .container {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px 0;
+}
+
+.statistics .container .image {
+    text-align: center;
+    padding: 20px;
+}
+
+.statistics .container .image img {
+    width: 80px;
+}
+
+.statistics .container p {
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    margin: 0 0 20px;
+    color: white;
+}
+
+.statistics .container p span {
+    color: var(--main-color);
+}
+
+.statistics .container div {
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+}
+
+/* End statistics */
+
+/* Start project */
+.project {
+    background-color: var(--main-back-ground);
+}
+
+.project .container {
+    padding-top: 20px;
+    padding-bottom: 80px;
+    margin: 0 200px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    gap: 10px 0;
+}
+
+.project .container .text h3 {
+    color: var(--main-color);
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 2px;
+    padding-top: 50px;
+}
+
+.project .container .text p:first-of-type {
+    color: white;
+    font-size: 50px;
+    font-weight: 600;
+    margin: 0;
+    text-transform: capitalize;
+}
+
+.project .container .text p:first-of-type span {
+    color: var(--main-color);
+}
+
+.project .container .text hr {
+    position: absolute;
+    width: 150px;
+    display: inline-block;
+    border-color: var(--main-color);
+    margin: 10px 0;
+}
+
+.project .container .text .one {
+    color: var(--p-color);
+    width: 800px;
+    line-height: 1.8;
+    margin: 80px 0 50px;
+}
+
+.project .container .text .two {
+    color: white;
+    margin-top: 15px;
+}
+
+.project .container .text .two i {
+    color: var(--main-color);
+    font-weight: bold;
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.project .container img {
+    width: 400px;
+}
+
+/* End project */
+
+/* Start separate */
+.separate {
+    background-image: linear-gradient(to right, rgb(16 12 20 / 0.6), rgb(16 202 183 / 0.7)), url(../img/side-view-portrait-of-a-woman-with-make-up-CTUMAUJ.jpg);
+    background-position: left;
+    filter: brightness(0.8);
+}
+
+.separate .container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 50px 0;
+}
+
+.separate .container div img {
+    width: 200px;
+    text-align: center;
+    filter: grayscale(100%);
+}
+
+.separate .container div img:hover {
+    filter: grayscale(0)
+}
+
+/* End separate */
+
+/* Start choose */
+.choose {
+    background-color: var(--main-back-ground);
+}
+
+.choose .container {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(2, auto);
+    gap: 50px 20px;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+
+.choose .container .one h3 {
+    color: var(--main-color);
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 2px;
+    padding-top: 50px;
+}
+
+.choose .container .one p {
+    color: white;
+    width: 500px;
+    font-size: 50px;
+    font-weight: 600;
+    margin: 0;
+    text-transform: capitalize;
+}
+
+.choose .container .one p span {
+    color: var(--main-color);
+}
+
+.choose .container .two {
+    margin-top: 130px;
+}
+
+.choose .container .two i {
+    color: var(--main-color);
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.choose .container .two p:first-child {
+    color: var(--p-color);
+    width: 500px;
+    line-height: 1.8;
+    margin-bottom: 60px;
+}
+
+.choose .container .two p:nth-child(2) {
+    color: white;
+}
+
+.choose .container .two p:last-child {
+    color: white;
+}
+
+.choose .container .three video {
+    width: 500px;
+}
+
+.choose .container .four {
+    margin-top: 100px;
+}
+
+.choose .container .four video {
+    width: 500px;
+}
+
+/* End choose */
+
+/* Start our team part 1 */
+.team-one {
+    background-image: url(../img/Bg-1.jpg);
+    background-position: right;
+    filter: brightness(0.8);
+}
+
+.team-one .container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.team-one .container h3 {
+    color: var(--main-color);
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 2px;
+    padding-top: 50px;
+    margin: 0 0 15px;
+    text-align: center;
+}
+
+.team-one .container p:first-of-type {
+    color: white;
+    font-size: 50px;
+    font-weight: 600;
+    margin: 0 0 15px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.team-one .container p:first-of-type span {
+    color: var(--main-color);
+}
+
+.team-one .container hr {
+    width: 100px;
+    border-color: var(--main-color);
+    text-align: center;
+}
+
+.team-one .container div {
+    display: flex;
+    justify-content: center;
+}
+
+.team-one .container div div {
+    color: var(--p-color);
+    width: 800px;
+    line-height: 1.8;
+    text-align: center;
+}
+
+/* End our team part 1 */
+
+/* Start our team part 2 */
+.team-two {
+    background-image: url(../img/Bg-1.jpg);
+    background-position: right;
+    filter: brightness(0.8);
+}
+
+.team-two .container {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: center;
+    gap: 30px 20px;
+    padding: 100px 0 150px;
+}
+
+.team-two .container .people {
+    background-color: #151515;
+    padding: 10px 20px;
+    display: flex;
+    column-gap: 15px;
+}
+
+.team-two .container .people .image img {
+    width: 200px;
+    filter: grayscale(100%);
+}
+
+.team-two .container .people .image img:hover {
+    filter: grayscale(0);
+}
+
+.team-two .container .people .text h3 {
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0px 0 20px;
+}
+
+.team-two .container .people .text span {
+    color: var(--main-color);
+}
+
+.team-two .container .people .text p {
+    width: 260px;
+    line-height: 1.8;
+    color: #888;
+    margin: 40px 0;
+}
+
+.team-two .container .people .text i {
+    color: var(--main-color);
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+/* End our team part 2 */
+/* Start portfolio */
+.portfolio {
+    background-color: var(--main-back-ground);
+}
+
+.portfolio .container {
+    padding-bottom: 100px;
+}
+
+.portfolio .container .text h3 {
+    color: var(--main-color);
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 2px;
+    padding-top: 50px;
+    margin: 0 0 15px;
+    text-align: center;
+}
+
+.portfolio .container .text p:first-of-type {
+    color: white;
+    font-size: 50px;
+    font-weight: 600;
+    margin: 0 0 15px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.portfolio .container .text p:first-of-type span {
+    color: var(--main-color);
+}
+
+.portfolio .container .text hr {
+    width: 100px;
+    border-color: var(--main-color);
+    text-align: center;
+}
+
+.portfolio .container .text .special {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.portfolio .container .text .special div {
+    color: var(--p-color);
+    width: 800px;
+    line-height: 1.8;
+    text-align: center;
+}
+
+.portfolio .container .image {
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    grid-template-rows: repeat(3, 300px);
+    justify-content: center;
+    gap: 20px;
+}
+
+.portfolio .container .image img {
+    width: 300px;
+}
+
+/* End portfolio */
+/* Start testimonials */
+.testimonials {
+    background-image: url(../img/adadad.jpg);
+    background-position: center;
+    filter: brightness(0.9);
+}
+
+.testimonials .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.testimonials .container .left h3.title {
+    color: var(--main-color);
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 2px;
+    padding-top: 80px;
+}
+
+.testimonials .container .left p:nth-child(2) {
+    color: white;
+    width: 500px;
+    font-size: 50px;
+    font-weight: 600;
+    margin: 0;
+    text-transform: capitalize;
+}
+
+.testimonials .container .left p:nth-child(2) span {
+    color: var(--main-color);
+}
+
+.testimonials .container .left hr {
+    position: absolute;
+    width: 150px;
+    display: inline-block;
+    border-color: var(--main-color);
+    margin: 15px 0;
+}
+
+.testimonials .container .left p:nth-child(4) {
+    width: 500px;
+    color: var(--p-color);
+    line-height: 2;
+    font-size: 18px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+.testimonials .container .left button {
+    background-color: var(--main-color);
+    color: white;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 15px 20px;
+    border: none;
+}
+
+.testimonials .container .right {
+    background-color: #141414;
+    padding: 0 25px;
+    margin-top: 80px;
+    height: fit-content;
+}
+
+.testimonials .container .right p:first-child {
+    width: 600px;
+    color: var(--p-color);
+    line-height: 1.8;
+    font-size: 18px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+.testimonials .container .right .person {
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.testimonials .container .right .person .name {
+    display: flex;
+    align-items: flex-start;
+    column-gap: 20px;
+}
+
+.testimonials .container .right .person .name img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.testimonials .container .right .person .name .flex h3 {
+    color: white;
+    font-weight: 400;
+    margin-top: 5px;
+}
+
+.testimonials .container .right .person .name .flex p {
+    color: var(--main-color);
+}
+
+.testimonials .container .right .person i {
+    color: var(--main-color);
+    font-size: 50px;
+}
+
+/* End testimonials */
+
+/* Start blog */
+.blog {
+    background-color: var(--main-back-ground);
+}
+
+.blog .container {
+    padding-bottom: 100px;
+}
+
+.blog .container .up h3 {
+    color: var(--main-color);
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 2px;
+    padding-top: 50px;
+    margin: 0 0 15px;
+    text-align: center;
+}
+
+.blog .container .up p:first-of-type {
+    color: white;
+    font-size: 50px;
+    font-weight: 600;
+    margin: 0 0 15px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.blog .container .up p:first-of-type span {
+    color: var(--main-color);
+}
+
+.blog .container .up hr {
+    width: 100px;
+    border-color: var(--main-color);
+    text-align: center;
+}
+
+.blog .container .up .special {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.blog .container .up .special div {
+    color: var(--p-color);
+    width: 800px;
+    line-height: 1.8;
+    text-align: center;
+}
+
+.blog .container .bottom {
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    justify-content: center;
+    column-gap: 30px;
+}
+
+.blog .container .bottom div img {
+    width: 300px;
+}
+
+.blog .container .bottom div h2 {
+    color: var(--main-color);
+    font-weight: 600;
+    font-size: 22px;
+    width: 300px;
+}
+
+.blog .container .bottom div p {
+    color: var(--p-color);
+    width: 300px;
+    font-weight: 500;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.blog .container .bottom div div i {
+    color: var(--main-color);
+    margin-right: 10px;
+}
+
+.blog .container .bottom div .date {
+    color: white;
+    font-size: 14px;
+    display: inline-block;
+    margin-right: 25px;
+}
+
+.blog .container .bottom div .type {
+    color: white;
+    font-size: 14px;
+    display: inline-block;
+}
+
+/* End blog */
+
+/* Start login */
+.login {
+    background-color: var(--main-back-ground);
+}
+
+.login .container {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    column-gap: 10px;
+}
+
+.login .container form {
+    border: 2px var(--main-color) solid;
+    width: 500px;
+    height: fit-content;
+}
+
+.login .container form label {
+    color: var(--main-color);
+    display: block;
+    margin: 15px 10px 5px;
+}
+
+.login .container form input {
+    background-color: transparent;
+    color: white;
+    border: 1px var(--main-color) solid;
+    display: block;
+    margin: 10px 10px 20px 10px;
+    width: calc(100% - 23px);
+    padding: 10px 0;
+}
+
+.login .container form input:nth-of-type(3) {
+    height: 150px;
+}
+
+.login .container form input:last-of-type {
+    width: 440px;
+    background-color: var(--main-color);
+    color: white;
+    font-weight: 500;
+    border: none;
+    padding: 15px 0;
+    margin-bottom: 100px;
+}
+
+.login .container .right h3 {
+    color: var(--main-color);
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 2px;
+    padding-top: 80px;
+}
+
+.login .container .right p.title {
+    color: white;
+    width: 500px;
+    font-size: 50px;
+    font-weight: 600;
+    margin: 0;
+    text-transform: capitalize;
+}
+
+.login .container .right p.title span {
+    color: var(--main-color);
+}
+
+.login .container .right hr {
+    position: absolute;
+    width: 150px;
+    display: inline-block;
+    border-color: var(--main-color);
+    margin: 15px 0;
+}
+
+.login .container .right p:nth-child(4) {
+    width: 500px;
+    color: var(--p-color);
+    line-height: 2;
+    font-size: 18px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.login .container .right .locate {
+    display: flex;
+    column-gap: 20px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+.login .container .right .locate i {
+    color: var(--main-color);
+    font-size: 40px;
+}
+
+.login .container .right .locate .one {
+    margin-left: 10px;
+}
+
+.login .container .right .locate div p:first-of-type {
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.login .container .right .locate div p:last-of-type {
+    color: var(--main-color);
+}
+/* End login */
+
+/* Start footer */
+.footer {
+    background-color: var(--main-back-ground);
+}
+
+.footer .container {
+    padding-bottom: 50px;
+}
+
+.footer .container .title {
+    text-align: center;
+}
+
+.footer .container .title h1 {
+    color: var(--main-color);
+    margin: 0;
+    font-size: 50px;
+}
+
+.footer .container .title p {
+    color: white;
+    text-transform: uppercase;
+    margin-top: -5px;
+    letter-spacing: 5px;
+    font-size: 5px;
+    margin-left: 35px;
+}
+
+
+.footer .container ul {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    list-style: none;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+.footer .container li a {
+    text-decoration: none;
+    color: var(--main-color);
+    font-weight: 600;
+}
+
+.footer .container .one {
+    color: white;
+    width: 550px;
+    line-height: 1.8;
+    text-align: center;
+    margin-left: 50%;
+    transform: translate(-50%);
+    letter-spacing: -1px;
+}
+
+.footer .container .icons {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 150px;
+}
+
+.footer .container .icons i {
+    color: var(--main-color);
+    margin-right: 30px;
+    font-size: 18px;
+}
+
+.footer .container .copyright {
+    color: var(--p-color);
+    text-align: center;
+    margin: 0;
+}
+/* End footer */
